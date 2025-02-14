@@ -1,0 +1,408 @@
+Running read cleaning with input: raw_reads and output: ./cleaned_reads
+Channels:
+ - bioconda
+ - conda-forge
+ - defaults
+Platform: osx-64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 24.9.0
+    latest version: 25.1.1
+
+Please update conda by running
+
+    $ conda update -n base -c conda-forge conda
+
+
+
+## Package Plan ##
+
+  environment location: /Users/ahuynh/miniforge3/envs/rc_2
+
+
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate rc_2
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+Channels:
+ - bioconda
+ - conda-forge
+ - defaults
+Platform: osx-64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 24.9.0
+    latest version: 25.1.1
+
+Please update conda by running
+
+    $ conda update -n base -c conda-forge conda
+
+
+
+## Package Plan ##
+
+  environment location: /Users/ahuynh/miniforge3/envs/rc_2
+
+  added / updated specs:
+    - entrez-direct
+    - fastp
+    - pigz
+    - sra-tools
+    - tree
+
+
+The following NEW packages will be INSTALLED:
+
+  c-ares             conda-forge/osx-64::c-ares-1.34.4-hf13058a_0 
+  ca-certificates    conda-forge/osx-64::ca-certificates-2025.1.31-h8857fd0_0 
+  curl               conda-forge/osx-64::curl-8.11.1-h5dec5d8_0 
+  entrez-direct      bioconda/osx-64::entrez-direct-22.4-h193322a_0 
+  fastp              bioconda/osx-64::fastp-0.24.0-h9ea9c2a_1 
+  gettext            conda-forge/osx-64::gettext-0.23.1-hd385c8e_0 
+  gettext-tools      conda-forge/osx-64::gettext-tools-0.23.1-h27064b9_0 
+  icu                conda-forge/osx-64::icu-70.1-h96cf925_0 
+  isa-l              conda-forge/osx-64::isa-l-2.31.1-h6e16a3a_1 
+  krb5               conda-forge/osx-64::krb5-1.21.3-h37d8d59_0 
+  libasprintf        conda-forge/osx-64::libasprintf-0.23.1-h27064b9_0 
+  libasprintf-devel  conda-forge/osx-64::libasprintf-devel-0.23.1-h27064b9_0 
+  libcurl            conda-forge/osx-64::libcurl-8.11.1-h5dec5d8_0 
+  libcxx             conda-forge/osx-64::libcxx-19.1.7-hf95d169_0 
+  libdeflate         conda-forge/osx-64::libdeflate-1.23-he65b83e_0 
+  libedit            conda-forge/osx-64::libedit-3.1.20250104-pl5321ha958ccf_0 
+  libev              conda-forge/osx-64::libev-4.33-h10d778d_2 
+  libgettextpo       conda-forge/osx-64::libgettextpo-0.23.1-h27064b9_0 
+  libgettextpo-devel conda-forge/osx-64::libgettextpo-devel-0.23.1-h27064b9_0 
+  libiconv           conda-forge/osx-64::libiconv-1.17-hd75f5a5_2 
+  libidn2            conda-forge/osx-64::libidn2-2.3.7-h10d778d_0 
+  libintl            conda-forge/osx-64::libintl-0.23.1-h27064b9_0 
+  libintl-devel      conda-forge/osx-64::libintl-devel-0.23.1-h27064b9_0 
+  liblzma            conda-forge/osx-64::liblzma-5.6.4-hd471939_0 
+  liblzma-devel      conda-forge/osx-64::liblzma-devel-5.6.4-hd471939_0 
+  libnghttp2         conda-forge/osx-64::libnghttp2-1.64.0-hc7306c3_0 
+  libssh2            conda-forge/osx-64::libssh2-1.11.1-h3dc7d44_0 
+  libunistring       conda-forge/osx-64::libunistring-0.9.10-h0d85af4_0 
+  libxml2            conda-forge/osx-64::libxml2-2.9.14-hea49891_4 
+  libzlib            conda-forge/osx-64::libzlib-1.3.1-hd23fc13_2 
+  ncbi-vdb           bioconda/osx-64::ncbi-vdb-3.2.0-h5fa12a8_0 
+  ncurses            conda-forge/osx-64::ncurses-6.5-h0622a9a_3 
+  openssl            conda-forge/osx-64::openssl-3.4.1-hc426f3f_0 
+  ossuuid            conda-forge/osx-64::ossuuid-1.6.2-h240833e_1001 
+  perl               conda-forge/osx-64::perl-5.26.2-hbcb3906_1008 
+  perl-app-cpanminus bioconda/osx-64::perl-app-cpanminus-1.7044-pl526_1 
+  perl-business-isbn bioconda/osx-64::perl-business-isbn-3.004-pl526_0 
+  perl-business-isb~ bioconda/osx-64::perl-business-isbn-data-20140910.003-pl526_0 
+  perl-carp          bioconda/osx-64::perl-carp-1.38-pl526_3 
+  perl-constant      bioconda/osx-64::perl-constant-1.33-pl526_1 
+  perl-data-dumper   bioconda/osx-64::perl-data-dumper-2.173-pl526_0 
+  perl-encode        bioconda/osx-64::perl-encode-2.88-pl526_1 
+  perl-exporter      bioconda/osx-64::perl-exporter-5.72-pl526_1 
+  perl-extutils-mak~ bioconda/osx-64::perl-extutils-makemaker-7.36-pl526_1 
+  perl-file-path     bioconda/osx-64::perl-file-path-2.16-pl526_0 
+  perl-file-temp     bioconda/osx-64::perl-file-temp-0.2304-pl526_2 
+  perl-mime-base64   bioconda/osx-64::perl-mime-base64-3.15-pl526_1 
+  perl-parent        bioconda/osx-64::perl-parent-0.236-pl526_1 
+  perl-uri           bioconda/osx-64::perl-uri-1.76-pl526_0 
+  perl-xml-libxml    bioconda/osx-64::perl-xml-libxml-2.0132-pl526h08abf6f_1 
+  perl-xml-namespac~ bioconda/osx-64::perl-xml-namespacesupport-1.12-pl526_0 
+  perl-xml-sax       bioconda/osx-64::perl-xml-sax-1.00-pl526_0 
+  perl-xml-sax-base  bioconda/osx-64::perl-xml-sax-base-1.09-pl526_0 
+  perl-xsloader      bioconda/osx-64::perl-xsloader-0.24-pl526_0 
+  pigz               conda-forge/osx-64::pigz-2.8-h0aa47d9_1 
+  sra-tools          bioconda/osx-64::sra-tools-3.2.0-h5fa12a8_0 
+  tree               conda-forge/osx-64::tree-2.2.1-h6e16a3a_0 
+  wget               conda-forge/osx-64::wget-1.21.4-hca547e6_0 
+  xz                 conda-forge/osx-64::xz-5.6.4-h357f2ed_0 
+  xz-gpl-tools       conda-forge/osx-64::xz-gpl-tools-5.6.4-h357f2ed_0 
+  xz-tools           conda-forge/osx-64::xz-tools-5.6.4-hd471939_0 
+  zlib               conda-forge/osx-64::zlib-1.3.1-hd23fc13_2 
+  zstd               conda-forge/osx-64::zstd-1.5.6-h915ae27_0 
+
+
+
+Downloading and Extracting Packages: ...working... done
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+Running genome assembly with input: ./cleaned_reads and output: genome_assemblies
+Channels:
+ - bioconda
+ - conda-forge
+ - defaults
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 24.9.0
+    latest version: 25.1.1
+
+Please update conda by running
+
+    $ conda update -n base -c conda-forge conda
+
+
+
+## Package Plan ##
+
+  environment location: /Users/ahuynh/miniforge3/envs/spades_test
+
+
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate spades_test
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+Channels:
+ - bioconda
+ - conda-forge
+ - defaults
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 24.9.0
+    latest version: 25.1.1
+
+Please update conda by running
+
+    $ conda update -n base -c conda-forge conda
+
+
+
+## Package Plan ##
+
+  environment location: /Users/ahuynh/miniforge3/envs/spades_test
+
+  added / updated specs:
+    - spades
+
+
+The following NEW packages will be INSTALLED:
+
+  bzip2              conda-forge/osx-64::bzip2-1.0.8-hfdf4475_7 
+  ca-certificates    conda-forge/osx-64::ca-certificates-2025.1.31-h8857fd0_0 
+  libcxx             conda-forge/osx-64::libcxx-19.1.7-hf95d169_0 
+  libffi             conda-forge/osx-64::libffi-3.4.6-h281671d_0 
+  liblzma            conda-forge/osx-64::liblzma-5.6.4-hd471939_0 
+  liblzma-devel      conda-forge/osx-64::liblzma-devel-5.6.4-hd471939_0 
+  libsqlite          conda-forge/osx-64::libsqlite-3.48.0-hdb6dae5_1 
+  libzlib            conda-forge/osx-64::libzlib-1.3.1-hd23fc13_2 
+  llvm-openmp        conda-forge/osx-64::llvm-openmp-19.1.7-ha54dae1_0 
+  ncurses            conda-forge/osx-64::ncurses-6.5-h0622a9a_3 
+  openssl            conda-forge/osx-64::openssl-3.4.1-hc426f3f_0 
+  pip                conda-forge/osx-64::pip-20.0.2-py38_1 
+  python             conda-forge/osx-64::python-3.8.20-h4f978b9_2_cpython 
+  python_abi         conda-forge/osx-64::python_abi-3.8-5_cp38 
+  readline           conda-forge/osx-64::readline-8.2-h9e318b2_1 
+  setuptools         conda-forge/osx-64::setuptools-65.3.0-py38h50d1736_0 
+  spades             bioconda/osx-64::spades-4.0.0-h62d8197_4 
+  tk                 conda-forge/osx-64::tk-8.6.13-h1abcd95_1 
+  wheel              conda-forge/osx-64::wheel-0.34.2-py38_0 
+  xz                 conda-forge/osx-64::xz-5.6.4-h357f2ed_0 
+  xz-gpl-tools       conda-forge/osx-64::xz-gpl-tools-5.6.4-h357f2ed_0 
+  xz-tools           conda-forge/osx-64::xz-tools-5.6.4-hd471939_0 
+
+
+
+Downloading and Extracting Packages: ...working... done
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working...     
+#############################################################################################
+#                                                                                           #
+#   Note: SPAdes installed through bioconda on MacOS may be somewhat slower than the SPAdes #
+#   binaries distributed by the authors at                                                  #
+#                                                                                           #
+#   http://cab.spbu.ru/files/release4.0.0/SPAdes-4.0.0-Darwin.tar.gz
+#                                                                                           #
+#   due to unavailability of parallel libstdc++ for the Clang compiler used by bioconda on  #
+#   MacOS; see https://github.com/ablab/spades/issues/194#issuecomment-523175204            #
+#                                                                                           #
+#############################################################################################
+
+done
+Running SPAdes for A2128694_S01_L001_clean...
+SPAdes completed for A2128694_S01_L001_clean.
+Running SPAdes for A2128696_S01_L001_clean...
+SPAdes completed for A2128696_S01_L001_clean.
+Channels:
+ - bioconda
+ - conda-forge
+ - defaults
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 24.9.0
+    latest version: 25.1.1
+
+Please update conda by running
+
+    $ conda update -n base -c conda-forge conda
+
+
+
+## Package Plan ##
+
+  environment location: /Users/ahuynh/miniforge3/envs/spades_test
+
+  added / updated specs:
+    - biopython
+    - python=2.7
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    biopython-1.70             |      np112py27_1         2.3 MB  bioconda
+    mmtf-python-1.0.2          |           py27_0          34 KB  bioconda
+    msgpack-python-1.0.0       |   py27h5cd23e5_1          28 KB  conda-forge
+    numpy-1.12.1               |py27_blas_openblash4251c03_1001         3.7 MB  conda-forge
+    olefile-0.45.1             |           py27_0          49 KB  conda-forge
+    pillow-6.2.1               |   py27h43b43f3_1         588 KB  conda-forge
+    reportlab-3.5.42           |   py27he89c811_0         2.4 MB  conda-forge
+    ------------------------------------------------------------
+                                           Total:         9.1 MB
+
+The following NEW packages will be INSTALLED:
+
+  biopython          bioconda/osx-64::biopython-1.70-np112py27_1 
+  blas               conda-forge/osx-64::blas-1.1-openblas 
+  certifi            conda-forge/osx-64::certifi-2019.11.28-py27h8c360ce_1 
+  freetype           conda-forge/osx-64::freetype-2.12.1-h60636b9_2 
+  jpeg               conda-forge/osx-64::jpeg-9e-hb7f2c08_3 
+  lerc               conda-forge/osx-64::lerc-3.0-he49afe7_0 
+  libdeflate         conda-forge/osx-64::libdeflate-1.10-h0d85af4_0 
+  libgfortran        conda-forge/osx-64::libgfortran-3.0.1-0 
+  libpng             conda-forge/osx-64::libpng-1.6.43-h92b6c6a_0 
+  libtiff            conda-forge/osx-64::libtiff-4.3.0-hfca7e8f_4 
+  libwebp-base       conda-forge/osx-64::libwebp-base-1.5.0-h6cf52b4_0 
+  mmtf-python        bioconda/osx-64::mmtf-python-1.0.2-py27_0 
+  msgpack-python     conda-forge/osx-64::msgpack-python-1.0.0-py27h5cd23e5_1 
+  numpy              conda-forge/osx-64::numpy-1.12.1-py27_blas_openblash4251c03_1001 
+  olefile            conda-forge/osx-64::olefile-0.45.1-py27_0 
+  openblas           conda-forge/osx-64::openblas-0.3.3-hdc02c5d_1001 
+  pillow             conda-forge/osx-64::pillow-6.2.1-py27h43b43f3_1 
+  reportlab          conda-forge/osx-64::reportlab-3.5.42-py27he89c811_0 
+  sqlite             conda-forge/osx-64::sqlite-3.46.0-h28673e1_0 
+  zlib               conda-forge/osx-64::zlib-1.2.13-h87427d6_6 
+  zstd               conda-forge/osx-64::zstd-1.5.6-h915ae27_0 
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  libffi               conda-forge::libffi-3.4.6-h281671d_0 --> bioconda::libffi-3.2.1-1 
+
+The following packages will be DOWNGRADED:
+
+  libsqlite                               3.48.0-hdb6dae5_1 --> 3.46.0-h1b8f9f3_0 
+  libzlib                                  1.3.1-hd23fc13_2 --> 1.2.13-h87427d6_6 
+  openssl                                  3.4.1-hc426f3f_0 --> 1.1.1w-h8a1eda9_0 
+  pip                                         20.0.2-py38_1 --> 20.0.2-py27_1 
+  python                          3.8.20-h4f978b9_2_cpython --> 2.7.15-h8e446fc_1011_cpython 
+  python_abi                                     3.8-5_cp38 --> 2.7-1_cp27m 
+  setuptools                          65.3.0-py38h50d1736_0 --> 44.0.0-py27_0 
+  spades                                   4.0.0-h62d8197_4 --> 3.15.2-he641558_0 
+  wheel                                       0.34.2-py38_0 --> 0.34.2-py27_0 
+
+
+
+Downloading and Extracting Packages: ...working... done
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working...     
+#############################################################################################
+#                                                                                           #
+#   Note: SPAdes installed through bioconda on MacOS may be somewhat slower than the SPAdes #
+#   binaries distributed by the authors at                                                  #
+#                                                                                           #
+#   http://cab.spbu.ru/files/release3.15.2/SPAdes-3.15.2-Darwin.tar.gz
+#                                                                                           #
+#   due to unavailability of parallel libstdc++ for the Clang compiler used by bioconda on  #
+#   MacOS; see https://github.com/ablab/spades/issues/194#issuecomment-523175204            #
+#                                                                                           #
+#############################################################################################
+
+done
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 14206  100 14206    0     0  81599      0 --:--:-- --:--:-- --:--:-- 81643
+Processing sample: A2128694_S01_L001_clean
+A2128694_S01_L001_clean processed successfully.
+Processing sample: A2128696_S01_L001_clean
+A2128696_S01_L001_clean processed successfully.
+---- Last 20 lines of genome_assemblies/A2128694_S01_L001_clean/contig-filtering.stderr.log for A2128694_S01_L001_clean ----
+
+INFO: coverage quartiles of filtered contigs
+    (including cov filt)
+    25th=73.95
+    50th=80.11
+    75th=86.51
+
+INFO: coverage of filtered contigs
+    (including cov filt)
+    minimum=56.11
+    average=151.05
+    maximum=3672.58
+
+INFO: 339 contigs input
+INFO: 2158895 bp input
+INFO: 242 contigs discarded
+INFO: 38649 bp discarded
+INFO: 97 contigs output
+INFO: 2120246 bp output
+
+--------------------------------------
+---- Last 20 lines of genome_assemblies/A2128696_S01_L001_clean/contig-filtering.stderr.log for A2128696_S01_L001_clean ----
+
+INFO: coverage quartiles of filtered contigs
+    (including cov filt)
+    25th=13.34
+    50th=14.72
+    75th=16.50
+
+INFO: coverage of filtered contigs
+    (including cov filt)
+    minimum=9.22
+    average=26.97
+    maximum=1003.20
+
+INFO: 367 contigs input
+INFO: 2159522 bp input
+INFO: 245 contigs discarded
+INFO: 39571 bp discarded
+INFO: 122 contigs output
+INFO: 2119951 bp output
+
+--------------------------------------
